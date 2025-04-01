@@ -1,6 +1,9 @@
 const inputField = document.getElementById("inputBox");
 const container = document.getElementById("listContainer");
 
+function test() {
+  console.log("git testing");
+}
 function addTask() {
   if (inputField.value === "") {
     alert("you must write something!");
