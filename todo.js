@@ -4,6 +4,10 @@ const container = document.getElementById("listContainer");
 function test() {
   console.log("git testing");
 }
+
+function test2() {
+  console.log("git testing 2");
+}
 function addTask() {
   if (inputField.value === "") {
     alert("you must write something!");
